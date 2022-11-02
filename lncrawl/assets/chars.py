@@ -1,6 +1,5 @@
 from ..utils.platforms import Platform
 
-
 class Chars:
     __supported = Platform.linux or Platform.mac
 
