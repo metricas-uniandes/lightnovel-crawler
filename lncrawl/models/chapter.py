@@ -31,3 +31,15 @@ class Chapter(Box):
         result = item.copy()
         result.body = None
         return result
+
+    @staticmethod
+    def without_body2(item: "Chapter") -> "Chapter":
+        result = item.copy()
+        result.body = None
+        return result
+
+    @staticmethod
+    def without_body3(item: "Chapter") -> "Chapter":
+        result = item.copy()
+        result.body = None
+        return result
